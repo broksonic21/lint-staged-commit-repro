@@ -8,7 +8,7 @@ fi
 echo "This git status should be clean"
 git status
 
-echo "Adding a console.log with an eslint error/cleanup in it" 
+echo "Adding a console.log with an prettier error/cleanup in it" 
 echo "console.log( now);" >> test-file.js
 
 echo "This git status should have one unstaged file"
